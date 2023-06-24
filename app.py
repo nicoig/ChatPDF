@@ -88,7 +88,7 @@ async def main():
 
 
     st.title("\U000026A1 BitBoosters \U000026A1")
-    st.title("PDF Chat")
+    st.subheader("PDF Chat")
     st.markdown("<p style='color: white; font-size: 15px;'>Carga tus documentos PDF, realiza consultas en lenguaje natural y obtén respuestas sobre tu documento.</p>", unsafe_allow_html=True)
 
 
