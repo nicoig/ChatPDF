@@ -1,7 +1,15 @@
 # Para crear el requirements.txt ejecutamos 
 # pipreqs --encoding=utf8 --force
 
+# Primera Carga a Github
+# git init
+# git add .
+# git remote add origin https://github.com/nicoig/ChatPDF.git
+# git push -u origin master
+
 # Actualizar Repo de Github
+
+
 # git add .
 # git commit -m "Se actualizan las variables de entorno"
 # git push origin master
