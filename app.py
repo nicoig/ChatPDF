@@ -8,8 +8,6 @@
 # git push -u origin master
 
 # Actualizar Repo de Github
-
-
 # git add .
 # git commit -m "Se actualizan las variables de entorno"
 # git push origin master
@@ -129,7 +127,7 @@ async def main():
 
         with container:
             with st.form(key='my_form', clear_on_submit=True):
-                user_input = st.text_input("Ingrese su solicitud:", placeholder="Ej: Resuma el trabajo en unas pocas oraciones", key='input')
+                user_input = st.text_input("Ingrese su solicitud:", placeholder="Ej: Haga un resumen del documento PDF", key='input')
                 submit_button = st.form_submit_button(label='Send')
 
             if submit_button and user_input:
